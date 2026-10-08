@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Map | Dadar Spa - Dastoorwadi Dadar East Mumbai</title>
+    <meta name="description" content="Contact Dadar Spa at Dastoorwadi, Dadar East, Dadar, Mumbai 400014. Call or WhatsApp 8169595455 for instant appointments, directions, and inquiries.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        spa: {
+                            gold: '#d4af37',
+                            goldLight: '#f5e5c9',
+                            goldDark: '#aa8222',
+                            dark: '#090a0f',
+                            card: '#12131c',
+                            accent: '#1e1f30',
+                            elevated: '#24263c',
+                            textMuted: '#9ba1b6'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        editorial: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-spa-dark text-stone-100 selection:bg-spa-gold selection:text-stone-950 pb-16 md:pb-0">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-stone-950 via-spa-accent to-stone-950 border-b border-spa-gold/20 py-2 px-4 text-xs text-stone-300 relative z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <div class="flex items-center gap-2.5 flex-wrap justify-center sm:justify-start">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-spa-gold/10 border border-spa-gold/30 text-[11px] font-semibold text-spa-goldLight">
+                    <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping"></span>
+                    Open Daily 10 AM – 10 PM
+                </span>
+                <span class="text-stone-300 text-xs">
+                    <i class="fa-solid fa-location-dot text-spa-gold mr-1"></i> Dastoorwadi, Dadar East, Mumbai
+                </span>
+            </div>
+            <div class="hidden sm:flex items-center gap-4 text-xs">
+                <a href="tel:8169595455" class="hover:text-spa-gold transition flex items-center gap-1.5 font-medium text-stone-200">
+                    <i class="fa-solid fa-phone text-spa-gold"></i> +91 81695 95455
+                </a>
+                <span class="text-stone-700">|</span>
+                <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20inquire%20about%20spa%20therapies" target="_blank" class="hover:text-amber-300 transition flex items-center gap-1.5 font-medium text-stone-300">
+                    <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp Helpdesk
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header id="main-navbar" class="sticky top-0 z-40 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo & Monogram -->
+                <a href="index.html" class="flex items-center gap-3.5 group">
+                    <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 border-spa-gold/60 flex items-center justify-center bg-gradient-to-br from-spa-card to-spa-accent text-spa-gold shadow-lg group-hover:scale-105 group-hover:border-spa-gold transition duration-300">
+                        <i class="fa-solid fa-spa text-xl sm:text-2xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif text-xl sm:text-2xl font-extrabold tracking-wider gold-gradient-text block leading-tight">DADAR SPA</span>
+                        <span class="text-[8px] sm:text-[9px] tracking-[0.26em] uppercase text-stone-400 font-semibold block">Luxury Wellness &bull; Dadar East</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-2 bg-spa-card/60 px-4 py-1.5 rounded-full border border-spa-gold/20 backdrop-blur-md">
+                    <a href="index.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Home</a>
+                    <a href="about.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">About Us</a>
+                    <a href="services.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Services & Rates</a>
+                    <a href="gallery.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Ambiance Gallery</a>
+                    <a href="contact.html" class="nav-link-luxury active text-xs uppercase tracking-wider font-bold">Contact & Location</a>
+                </nav>
+
+                <!-- Action Hub (Desktop) -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="tel:8169595455" class="px-4 py-2 rounded-full border border-spa-gold/40 text-spa-goldLight hover:bg-spa-gold hover:text-stone-950 transition text-xs font-bold tracking-wide flex items-center gap-2">
+                        <i class="fa-solid fa-phone-volume text-spa-gold"></i> 8169595455
+                    </a>
+                    <button class="open-booking-modal btn-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg flex items-center gap-2">
+                        <i class="fa-regular fa-calendar-check"></i> Book Session
+                    </button>
+                </div>
+
+                <!-- Mobile Action & Toggle (Clean, Uncluttered) -->
+                <div class="lg:hidden flex items-center gap-2">
+                    <button class="open-booking-modal btn-gold px-3.5 py-2 rounded-full text-xs font-bold uppercase tracking-wider shadow flex items-center gap-1.5">
+                        <i class="fa-regular fa-calendar-check text-xs"></i> Book
+                    </button>
+                    <button id="mobile-menu-btn" class="w-10 h-10 rounded-xl bg-spa-card border border-spa-gold/40 text-spa-gold flex items-center justify-center focus:outline-none shadow-md hover:bg-spa-accent transition" aria-label="Open navigation menu">
+                        <i class="fa-solid fa-bars-staggered text-base"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 bg-stone-950/98 backdrop-blur-2xl hidden flex-col p-6 overflow-y-auto">
+        <div class="flex items-center justify-between pb-5 border-b border-stone-800">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full border border-spa-gold flex items-center justify-center bg-spa-card text-spa-gold">
+                    <i class="fa-solid fa-spa text-lg"></i>
+                </div>
+                <div>
+                    <span class="font-serif text-xl font-bold gold-gradient-text block leading-none">DADAR SPA</span>
+                    <span class="text-[9px] tracking-widest text-stone-400 uppercase">Dadar East &bull; Mumbai</span>
+                </div>
+            </div>
+            <button id="mobile-menu-close" class="w-10 h-10 rounded-full bg-spa-card border border-stone-700 text-stone-300 hover:text-white flex items-center justify-center text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <nav class="flex flex-col gap-2 py-6 font-serif">
+            <a href="index.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Home</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="about.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>About Us</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="services.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Services & Treatments</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="gallery.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Ambiance Gallery</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="contact.html" class="text-spa-gold font-bold flex items-center justify-between p-3 rounded-xl bg-spa-gold/10 border border-spa-gold/20">
+                <span>Contact & Location</span> <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+        </nav>
+
+        <div class="mt-auto space-y-3 pt-6 border-t border-stone-800">
+            <div class="p-3.5 rounded-xl bg-spa-card/90 border border-spa-gold/20 text-xs text-stone-300 space-y-1.5">
+                <div class="flex items-center gap-2 text-spa-gold font-bold">
+                    <i class="fa-solid fa-clock"></i> 10:00 AM – 10:00 PM (Daily)
+                </div>
+                <div class="text-[11px] text-stone-400">
+                    <i class="fa-solid fa-location-dot text-spa-gold mr-1"></i> Dastoorwadi, Dadar East, Mumbai 400014
+                </div>
+            </div>
+            <a href="tel:8169595455" class="w-full py-3.5 rounded-xl border border-spa-gold text-spa-gold flex items-center justify-center gap-2 font-bold text-sm bg-spa-card">
+                <i class="fa-solid fa-phone"></i> Call: +91 81695 95455
+            </a>
+            <button class="open-booking-modal w-full py-3.5 rounded-xl btn-gold text-stone-950 flex items-center justify-center gap-2 font-bold text-sm shadow-xl">
+                <i class="fa-regular fa-calendar-check"></i> Book Session Online
+            </button>
+        </div>
+    </div>
+
+    <!-- Header Banner -->
+    <section class="relative py-24 bg-cover bg-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1920&q=80');">
+        <div class="absolute inset-0 bg-stone-950/85 backdrop-blur-sm"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 text-center">
+            <span class="text-spa-gold uppercase tracking-[0.25em] text-xs font-bold block mb-2">Get In Touch</span>
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">Contact & Location</h1>
+            <div class="w-20 h-1 bg-gradient-to-r from-transparent via-spa-gold to-transparent mx-auto mb-4 rounded-full"></div>
+            <p class="text-stone-300 text-sm sm:text-base max-w-2xl mx-auto font-light">
+                We are conveniently located at Dastoorwadi, Dadar East, Mumbai. Reach out via call, WhatsApp, or visit us directly.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Contact & Booking Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Left: Contact Details & Quick Action Cards (5 Cols) -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="text-spa-gold uppercase tracking-[0.2em] text-xs font-bold block mb-1">Direct Details</span>
+                        <h2 class="font-serif text-3xl font-bold text-white mb-4">Visit Or Call Us</h2>
+                        <p class="text-stone-300 text-sm leading-relaxed">
+                            Our friendly wellness desk is available 7 days a week to help you choose the best therapy and confirm your slot.
+                        </p>
+                    </div>
+
+                    <!-- Address Card -->
+                    <div class="glass-card rounded-2xl p-6 border-l-4 border-spa-gold shadow-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-spa-gold/15 border border-spa-gold/30 flex items-center justify-center text-spa-gold text-xl shrink-0">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-serif font-bold text-base text-white">Spa Address</h4>
+                                <p class="text-xs sm:text-sm text-stone-300 mt-1 leading-relaxed">
+                                    <strong>Dadar Spa</strong><br>
+                                    Dastoorwadi, Dadar East, Dadar,<br>
+                                    Mumbai, Maharashtra 400014
+                                </p>
+                                <a href="#map-section" class="text-xs text-spa-gold hover:underline mt-2 inline-block font-semibold">
+                                    <i class="fa-solid fa-diamond-turn-right mr-1"></i> View On Google Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone / WhatsApp Card -->
+                    <div class="glass-card rounded-2xl p-6 border-l-4 border-emerald-500 shadow-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xl shrink-0">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-serif font-bold text-base text-white">Call & WhatsApp Hotline</h4>
+                                <p class="text-xs text-stone-300 mt-1">Available for both voice calling and instant WhatsApp chat</p>
+                                <div class="mt-3 flex flex-wrap gap-2.5">
+                                    <a href="tel:8169595455" class="px-4 py-2.5 rounded-xl btn-gold font-bold text-xs flex items-center gap-1.5 shadow-md">
+                                        <i class="fa-solid fa-phone"></i> +91 81695 95455
+                                    </a>
+                                    <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20inquire%20about%20your%20services" target="_blank" class="px-4 py-2.5 rounded-xl btn-whatsapp-luxury font-semibold text-xs flex items-center gap-1.5 shadow-md">
+                                        <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp Chat
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timings Card -->
+                    <div class="glass-card rounded-2xl p-6 border-l-4 border-spa-gold shadow-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-spa-gold/15 border border-spa-gold/30 flex items-center justify-center text-spa-gold text-xl shrink-0">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-serif font-bold text-base text-white">Operating Hours</h4>
+                                <p class="text-xs sm:text-sm text-stone-300 mt-1">
+                                    <strong>Monday – Sunday (7 Days a Week)</strong><br>
+                                    10:00 AM – 10:00 PM
+                                </p>
+                                <p class="text-[11px] text-stone-400 mt-1">Walk-ins are accommodated based on room availability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Central Connectivity -->
+                    <div class="p-5 rounded-2xl bg-spa-card/70 border border-spa-gold/20 shadow-md">
+                        <h4 class="font-serif font-bold text-sm text-white mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-train text-spa-gold"></i> Landmark & Connectivity
+                        </h4>
+                        <p class="text-xs text-stone-400 leading-relaxed">
+                            Conveniently accessible from Dadar Central & Western Railway Station, Tilak Bridge, and Dr. B.A. Ambedkar Road. Valet assistance and nearby parking available.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Right: Interactive WhatsApp Booking & Inquiry Form (7 Cols) -->
+                <div class="lg:col-span-7">
+                    <div class="glass-card rounded-3xl p-8 border border-spa-gold/30 shadow-2xl">
+                        <div class="mb-6">
+                            <span class="text-spa-gold uppercase tracking-widest text-xs font-bold block mb-1">Online Reservation</span>
+                            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Reserve Your Session</h3>
+                            <p class="text-xs sm:text-sm text-stone-300 mt-1">
+                                Fill out the form below to receive immediate confirmation directly on your WhatsApp or phone.
+                            </p>
+                        </div>
+
+                        <form class="spa-booking-form space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-stone-300 mb-1">Your Full Name *</label>
+                                <input type="text" name="name" required placeholder="e.g. Amit Patil" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-stone-300 mb-1">Phone / WhatsApp Number *</label>
+                                    <input type="tel" name="phone" required placeholder="e.g. 8169595455" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-stone-300 mb-1">Select Therapy *</label>
+                                    <select name="service" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition">
+                                        <option value="Swedish Relaxing Therapy (60 Mins)">Swedish Relaxing Therapy (60 Mins)</option>
+                                        <option value="Deep Tissue Massage (60 Mins)">Deep Tissue Massage (60 Mins)</option>
+                                        <option value="Aromatherapy Bliss (60 Mins)">Aromatherapy Bliss (60 Mins)</option>
+                                        <option value="Traditional Thai Massage (60 Mins)">Traditional Thai Massage (60 Mins)</option>
+                                        <option value="Ayurvedic Abhyanga (60 Mins)">Ayurvedic Abhyanga (60 Mins)</option>
+                                        <option value="Body Scrub & Glow Polish">Body Scrub & Glow Polish</option>
+                                        <option value="Foot Reflexology & Head Massage">Foot Reflexology & Head Massage</option>
+                                        <option value="VIP Couple Harmony Suite">VIP Couple Harmony Suite</option>
+                                        <option value="Executive Stress Buster (120 Mins)">Executive Stress Buster (120 Mins)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Date</label>
+                                    <input type="date" name="date" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Time Slot</label>
+                                    <select name="time" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition">
+                                        <option value="Morning (10:00 AM - 01:00 PM)">Morning (10:00 AM - 01:00 PM)</option>
+                                        <option value="Afternoon (01:00 PM - 05:00 PM)">Afternoon (01:00 PM - 05:00 PM)</option>
+                                        <option value="Evening (05:00 PM - 08:00 PM)">Evening (05:00 PM - 08:00 PM)</option>
+                                        <option value="Night (08:00 PM - 10:00 PM)">Night (08:00 PM - 10:00 PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-stone-300 mb-1">Special Preferences / Health Notes</label>
+                                <textarea name="notes" rows="3" placeholder="Specify any chronic muscle pain, pressure preference (medium/firm), or preferred oil aroma..." class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-spa-gold transition"></textarea>
+                            </div>
+
+                            <div class="pt-2">
+                                <button type="submit" class="w-full btn-gold py-4 rounded-xl text-base font-bold shadow-2xl flex items-center justify-center gap-3">
+                                    <i class="fa-brands fa-whatsapp text-xl"></i> Submit & Instant WhatsApp Dispatch
+                                </button>
+                                <p class="text-xs text-center text-stone-400 mt-3">
+                                    Direct booking with Dadar Spa reservation manager &bull; 8169595455
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map & Directions Section -->
+    <section id="map-section" class="py-16 bg-spa-card/50 border-t border-spa-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-spa-gold uppercase tracking-[0.2em] text-xs font-bold block mb-1">Find Us In Dadar</span>
+                <h2 class="font-serif text-3xl font-bold text-white">Location Map & Directions</h2>
+                <p class="text-xs sm:text-sm text-stone-300 mt-2">
+                    Dastoorwadi, Dadar East, Dadar, Mumbai, Maharashtra 400014
+                </p>
+            </div>
+
+            <div class="rounded-3xl overflow-hidden border-2 border-spa-gold/30 shadow-2xl h-[450px] relative bg-stone-900">
+                <iframe 
+                    title="Dadar Spa Location Map Dadar East Mumbai"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.606213271501!2d72.8437346!3d19.0197089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ced81e102f45%3A0x6d8b671a52e90fbb!2sDadar%20East%2C%20Dadar%2C%20Mumbai%2C%20Maharashtra%20400014!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; filter: grayscale(15%) contrast(1.1) brightness(0.9);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="absolute bottom-6 left-6 bg-stone-950/95 border border-spa-gold/50 p-4 rounded-xl shadow-xl backdrop-blur-md hidden sm:block">
+                    <strong class="text-white block font-serif text-sm">Dadar Spa</strong>
+                    <span class="text-xs text-stone-300">Dastoorwadi, Dadar East, Mumbai 400014</span>
+                    <div class="mt-2">
+                        <a href="https://maps.google.com/?q=Dadar+East+Mumbai+400014" target="_blank" class="text-xs text-spa-gold font-bold hover:underline">
+                            Open in Google Maps App &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <span class="text-spa-gold uppercase tracking-[0.2em] text-xs font-bold block mb-1">Common Inquiries</span>
+                <h2 class="font-serif text-3xl font-bold text-white">Frequently Asked Questions</h2>
+                <div class="w-16 h-1 bg-spa-gold mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="space-y-4">
+                <div class="p-6 rounded-2xl bg-spa-card border border-spa-gold/20 shadow-lg">
+                    <h4 class="font-serif font-bold text-base text-white mb-2">Do I need an advance appointment or can I walk in?</h4>
+                    <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                        While walk-ins are welcome, we strongly recommend booking in advance via phone or WhatsApp at <strong>8169595455</strong> to guarantee therapist availability and avoid waiting time.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-spa-card border border-spa-gold/20 shadow-lg">
+                    <h4 class="font-serif font-bold text-base text-white mb-2">What safety & hygiene measures are practiced?</h4>
+                    <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                        We maintain the highest hygiene standards with disposable single-use sheets, freshly laundered towels, sanitized shower cabins, and organic, skin-tested oils for every client.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-spa-card border border-spa-gold/20 shadow-lg">
+                    <h4 class="font-serif font-bold text-base text-white mb-2">Are shower and steam facilities included in treatments?</h4>
+                    <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                        Yes! Every full-body massage therapy includes complimentary access to our private hot shower suites and steam bath facilities with fresh organic shower toiletries.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-spa-card border border-spa-gold/20 shadow-lg">
+                    <h4 class="font-serif font-bold text-base text-white mb-2">What payment methods are accepted?</h4>
+                    <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                        We accept all major UPI apps (Google Pay, PhonePe, Paytm), Credit & Debit Cards, and Cash.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 text-stone-400 pt-16 pb-12 border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-stone-800">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full border border-spa-gold flex items-center justify-center bg-spa-card text-spa-gold">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+                        <span class="font-serif text-2xl font-bold gold-gradient-text">DADAR SPA</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-400 leading-relaxed mb-4">
+                        Dastoorwadi, Dadar East, Dadar, Mumbai, Maharashtra 400014. Call / WhatsApp: 8169595455.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Navigation</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="index.html" class="hover:text-spa-gold transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-spa-gold transition">About Us</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Services & Rates</a></li>
+                        <li><a href="gallery.html" class="hover:text-spa-gold transition">Ambiance Gallery</a></li>
+                        <li><a href="contact.html" class="hover:text-spa-gold transition text-spa-gold">Contact & Map</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Our Services</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Swedish Relaxing Therapy</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Deep Tissue Relief</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Aromatherapy Oils</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Couple Harmony Suite</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Contact</h4>
+                    <div class="space-y-3 text-xs sm:text-sm">
+                        <div class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-location-dot text-spa-gold mt-1"></i>
+                            <span>Dastoorwadi, Dadar East, Mumbai 400014</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-phone text-spa-gold"></i>
+                            <a href="tel:8169595455" class="hover:text-spa-gold font-semibold">+91 81695 95455</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                            <a href="https://wa.me/918169595455" target="_blank" class="hover:text-emerald-300 font-semibold">8169595455</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-stone-500">
+                <p>&copy; 2026 Dadar Spa. Dastoorwadi, Dadar East, Mumbai 400014.</p>
+                <p>Hotline: +91 81695 95455</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Quick Action Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-stone-950/95 backdrop-blur-xl border-t border-spa-gold/30 px-3 py-2 flex items-center justify-between gap-2 shadow-2xl">
+        <a href="tel:8169595455" class="flex-1 py-2.5 rounded-xl bg-spa-card border border-spa-gold/30 text-spa-goldLight flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-solid fa-phone-volume text-spa-gold"></i> Call
+        </a>
+        <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20book%20a%20session" target="_blank" class="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+        </a>
+        <button class="open-booking-modal flex-1 py-2.5 rounded-xl btn-gold text-stone-950 flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-regular fa-calendar-check"></i> Book Now
+        </button>
+    </div>
+
+    <!-- Desktop Floating Action Buttons -->
+    <div class="hidden md:flex fixed bottom-6 right-6 z-40 flex-col gap-3">
+        <a href="tel:8169595455" class="w-14 h-14 rounded-full btn-gold text-stone-950 flex items-center justify-center text-xl shadow-2xl hover:scale-110 transition border-2 border-spa-goldLight group" title="Call Dadar Spa">
+            <i class="fa-solid fa-phone-volume group-hover:rotate-12 transition"></i>
+        </a>
+        <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20inquire%20about%20your%20services" target="_blank" class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition pulse-wa" title="WhatsApp Dadar Spa">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 z-50 modal-backdrop bg-stone-950/85 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="modal-content glass-card-static w-full max-w-lg rounded-3xl p-6 sm:p-8 border border-spa-gold/40 shadow-2xl relative">
+            <button class="close-booking-modal absolute top-5 right-5 text-stone-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="text-center mb-6">
+                <span class="text-spa-gold uppercase tracking-widest text-xs font-bold block mb-1">Instant Appointment</span>
+                <h3 class="font-serif text-2xl font-bold text-white">Book Your Spa Session</h3>
+                <p class="text-xs text-stone-300 mt-1">Dadar Spa &bull; Dastoorwadi, Dadar East (8169595455)</p>
+            </div>
+            <form class="spa-booking-form space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-stone-300 mb-1">Your Full Name *</label>
+                    <input type="text" name="name" required placeholder="e.g. Rahul Sharma" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Contact Phone *</label>
+                        <input type="tel" name="phone" required placeholder="e.g. 9876543210" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Selected Therapy</label>
+                        <select id="modal-service-select" name="service" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                            <option value="Swedish Relaxing Therapy">Swedish Relaxing Therapy</option>
+                            <option value="Deep Tissue Massage">Deep Tissue Massage</option>
+                            <option value="Aromatherapy Bliss">Aromatherapy Bliss</option>
+                            <option value="Traditional Thai Massage">Traditional Thai Massage</option>
+                            <option value="Ayurvedic Abhyanga">Ayurvedic Abhyanga</option>
+                            <option value="Couple Harmony Ritual">Couple Harmony Ritual</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Date</label>
+                        <input type="date" name="date" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Time</label>
+                        <select name="time" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                            <option value="Morning (10:00 AM - 01:00 PM)">Morning (10:00 AM - 01:00 PM)</option>
+                            <option value="Afternoon (01:00 PM - 05:00 PM)">Afternoon (01:00 PM - 05:00 PM)</option>
+                            <option value="Evening (05:00 PM - 08:00 PM)">Evening (05:00 PM - 08:00 PM)</option>
+                            <option value="Night (08:00 PM - 10:00 PM)">Night (08:00 PM - 10:00 PM)</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-stone-300 mb-1">Notes / Preferences</label>
+                    <textarea name="notes" rows="2" placeholder="Any specific requirements..." class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2 text-sm text-white focus:outline-none focus:border-spa-gold"></textarea>
+                </div>
+                <div class="pt-2">
+                    <button type="submit" class="w-full btn-gold py-3.5 rounded-xl text-sm font-bold shadow-xl flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Confirm & Book via WhatsApp
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambiance Gallery | Dadar Spa - Luxury Therapy Rooms & Suites Dadar East</title>
+    <meta name="description" content="Take a virtual tour of Dadar Spa at Dastoorwadi, Dadar East, Mumbai. View our private luxury massage suites, steam rooms, couple chambers, and serene ambiance. Call 8169595455.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        spa: {
+                            gold: '#d4af37',
+                            goldLight: '#f5e5c9',
+                            goldDark: '#aa8222',
+                            dark: '#090a0f',
+                            card: '#12131c',
+                            accent: '#1e1f30',
+                            elevated: '#24263c',
+                            textMuted: '#9ba1b6'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        editorial: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-spa-dark text-stone-100 selection:bg-spa-gold selection:text-stone-950 pb-16 md:pb-0">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-stone-950 via-spa-accent to-stone-950 border-b border-spa-gold/20 py-2 px-4 text-xs text-stone-300 relative z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <div class="flex items-center gap-2.5 flex-wrap justify-center sm:justify-start">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-spa-gold/10 border border-spa-gold/30 text-[11px] font-semibold text-spa-goldLight">
+                    <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping"></span>
+                    Open Daily 10 AM – 10 PM
+                </span>
+                <span class="text-stone-300 text-xs">
+                    <i class="fa-solid fa-location-dot text-spa-gold mr-1"></i> Dastoorwadi, Dadar East, Mumbai
+                </span>
+            </div>
+            <div class="hidden sm:flex items-center gap-4 text-xs">
+                <a href="tel:8169595455" class="hover:text-spa-gold transition flex items-center gap-1.5 font-medium text-stone-200">
+                    <i class="fa-solid fa-phone text-spa-gold"></i> +91 81695 95455
+                </a>
+                <span class="text-stone-700">|</span>
+                <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20inquire%20about%20spa%20therapies" target="_blank" class="hover:text-amber-300 transition flex items-center gap-1.5 font-medium text-stone-300">
+                    <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp Helpdesk
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header id="main-navbar" class="sticky top-0 z-40 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo & Monogram -->
+                <a href="index.html" class="flex items-center gap-3.5 group">
+                    <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 border-spa-gold/60 flex items-center justify-center bg-gradient-to-br from-spa-card to-spa-accent text-spa-gold shadow-lg group-hover:scale-105 group-hover:border-spa-gold transition duration-300">
+                        <i class="fa-solid fa-spa text-xl sm:text-2xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif text-xl sm:text-2xl font-extrabold tracking-wider gold-gradient-text block leading-tight">DADAR SPA</span>
+                        <span class="text-[8px] sm:text-[9px] tracking-[0.26em] uppercase text-stone-400 font-semibold block">Luxury Wellness &bull; Dadar East</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-2 bg-spa-card/60 px-4 py-1.5 rounded-full border border-spa-gold/20 backdrop-blur-md">
+                    <a href="index.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Home</a>
+                    <a href="about.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">About Us</a>
+                    <a href="services.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Services & Rates</a>
+                    <a href="gallery.html" class="nav-link-luxury active text-xs uppercase tracking-wider font-bold">Ambiance Gallery</a>
+                    <a href="contact.html" class="nav-link-luxury text-stone-300 hover:text-white text-xs uppercase tracking-wider font-semibold">Contact & Location</a>
+                </nav>
+
+                <!-- Action Hub (Desktop) -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="tel:8169595455" class="px-4 py-2 rounded-full border border-spa-gold/40 text-spa-goldLight hover:bg-spa-gold hover:text-stone-950 transition text-xs font-bold tracking-wide flex items-center gap-2">
+                        <i class="fa-solid fa-phone-volume text-spa-gold"></i> 8169595455
+                    </a>
+                    <button class="open-booking-modal btn-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg flex items-center gap-2">
+                        <i class="fa-regular fa-calendar-check"></i> Book Session
+                    </button>
+                </div>
+
+                <!-- Mobile Action & Toggle (Clean, Uncluttered) -->
+                <div class="lg:hidden flex items-center gap-2">
+                    <button class="open-booking-modal btn-gold px-3.5 py-2 rounded-full text-xs font-bold uppercase tracking-wider shadow flex items-center gap-1.5">
+                        <i class="fa-regular fa-calendar-check text-xs"></i> Book
+                    </button>
+                    <button id="mobile-menu-btn" class="w-10 h-10 rounded-xl bg-spa-card border border-spa-gold/40 text-spa-gold flex items-center justify-center focus:outline-none shadow-md hover:bg-spa-accent transition" aria-label="Open navigation menu">
+                        <i class="fa-solid fa-bars-staggered text-base"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 bg-stone-950/98 backdrop-blur-2xl hidden flex-col p-6 overflow-y-auto">
+        <div class="flex items-center justify-between pb-5 border-b border-stone-800">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full border border-spa-gold flex items-center justify-center bg-spa-card text-spa-gold">
+                    <i class="fa-solid fa-spa text-lg"></i>
+                </div>
+                <div>
+                    <span class="font-serif text-xl font-bold gold-gradient-text block leading-none">DADAR SPA</span>
+                    <span class="text-[9px] tracking-widest text-stone-400 uppercase">Dadar East &bull; Mumbai</span>
+                </div>
+            </div>
+            <button id="mobile-menu-close" class="w-10 h-10 rounded-full bg-spa-card border border-stone-700 text-stone-300 hover:text-white flex items-center justify-center text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <nav class="flex flex-col gap-2 py-6 font-serif">
+            <a href="index.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Home</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="about.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>About Us</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="services.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Services & Treatments</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+            <a href="gallery.html" class="text-spa-gold font-bold flex items-center justify-between p-3 rounded-xl bg-spa-gold/10 border border-spa-gold/20">
+                <span>Ambiance Gallery</span> <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+            <a href="contact.html" class="text-stone-300 hover:text-spa-gold flex items-center justify-between p-3 rounded-xl hover:bg-spa-card transition">
+                <span>Contact & Location</span> <i class="fa-solid fa-chevron-right text-xs text-stone-600"></i>
+            </a>
+        </nav>
+
+        <div class="mt-auto space-y-3 pt-6 border-t border-stone-800">
+            <div class="p-3.5 rounded-xl bg-spa-card/90 border border-spa-gold/20 text-xs text-stone-300 space-y-1.5">
+                <div class="flex items-center gap-2 text-spa-gold font-bold">
+                    <i class="fa-solid fa-clock"></i> 10:00 AM – 10:00 PM (Daily)
+                </div>
+                <div class="text-[11px] text-stone-400">
+                    <i class="fa-solid fa-location-dot text-spa-gold mr-1"></i> Dastoorwadi, Dadar East, Mumbai 400014
+                </div>
+            </div>
+            <a href="tel:8169595455" class="w-full py-3.5 rounded-xl border border-spa-gold text-spa-gold flex items-center justify-center gap-2 font-bold text-sm bg-spa-card">
+                <i class="fa-solid fa-phone"></i> Call: +91 81695 95455
+            </a>
+            <button class="open-booking-modal w-full py-3.5 rounded-xl btn-gold text-stone-950 flex items-center justify-center gap-2 font-bold text-sm shadow-xl">
+                <i class="fa-regular fa-calendar-check"></i> Book Session Online
+            </button>
+        </div>
+    </div>
+
+    <!-- Header Banner -->
+    <section class="relative py-24 bg-cover bg-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80');">
+        <div class="absolute inset-0 bg-stone-950/85 backdrop-blur-sm"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 text-center">
+            <span class="text-spa-gold uppercase tracking-[0.25em] text-xs font-bold block mb-2">Visual Experience</span>
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">Ambiance Gallery</h1>
+            <div class="w-20 h-1 bg-gradient-to-r from-transparent via-spa-gold to-transparent mx-auto mb-4 rounded-full"></div>
+            <p class="text-stone-300 text-sm sm:text-base max-w-2xl mx-auto font-light">
+                Immerse yourself in our tranquil chambers, private couple suites, aroma stations, and steam baths at Dastoorwadi, Dadar East.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Category Filter -->
+    <section class="py-6 bg-spa-card/90 border-b border-spa-gold/20 sticky top-20 z-30 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-2.5 overflow-x-auto pb-2 sm:pb-0 scrollbar-none justify-start sm:justify-center">
+                <button data-filter="all" class="gallery-filter-btn px-5 py-2 rounded-full text-xs sm:text-sm font-bold bg-amber-400 text-stone-950 transition whitespace-nowrap shadow-md">
+                    All Photos
+                </button>
+                <button data-filter="suites" class="gallery-filter-btn px-5 py-2 rounded-full text-xs sm:text-sm font-medium bg-spa-card text-stone-300 hover:text-white border border-spa-gold/20 transition whitespace-nowrap">
+                    Therapy Suites
+                </button>
+                <button data-filter="couples" class="gallery-filter-btn px-5 py-2 rounded-full text-xs sm:text-sm font-medium bg-spa-card text-stone-300 hover:text-white border border-spa-gold/20 transition whitespace-nowrap">
+                    VIP Couple Rooms
+                </button>
+                <button data-filter="steam" class="gallery-filter-btn px-5 py-2 rounded-full text-xs sm:text-sm font-medium bg-spa-card text-stone-300 hover:text-white border border-spa-gold/20 transition whitespace-nowrap">
+                    Steam & Jacuzzi
+                </button>
+                <button data-filter="oils" class="gallery-filter-btn px-5 py-2 rounded-full text-xs sm:text-sm font-medium bg-spa-card text-stone-300 hover:text-white border border-spa-gold/20 transition whitespace-nowrap">
+                    Oils & Aromatics
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Grid -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
+                
+                <!-- Item 1 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="suites" data-img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80" data-title="Private Single Suite" data-desc="Quiet and dim-lit massage therapy room with soundproofing">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Private Suite" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Suite</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Private Single Suite</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="couples" data-img="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" data-title="VIP Couple Room" data-desc="Double massage beds with candlelit ambiance for couples">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Couple Suite" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Couple Sanctuary</span>
+                        <h4 class="text-white font-serif font-bold text-lg">VIP Couple Suite</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="steam" data-img="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80" data-title="Hot Steam & Shower Suite" data-desc="Private hygienic steam chambers to detoxify muscles">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80" alt="Steam Room" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Detox Amenity</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Private Steam & Shower</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="oils" data-img="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=1200&q=80" data-title="Aromatic Botanical Oils" data-desc="Pure cold-pressed essential oils and herbal essences">
+                    <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80" alt="Botanical Oils" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Natural Organics</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Essential Oils Bar</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="suites" data-img="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80" data-title="Deep Tissue Treatment Chamber" data-desc="Ergonomic padded therapy table and hot towel setup">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80" alt="Therapy Table" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Therapy Room</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Bodywork Suite</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="oils" data-img="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1200&q=80" data-title="Warm Stone & Oil Setup" data-desc="Heated basalt stones for deep muscle relief">
+                    <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" alt="Warm Stones" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Holistic Setup</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Heated Stones & Balm</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="couples" data-img="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80" data-title="Jacuzzi Hydrotherapy" data-desc="Warm water hydrotherapy jet bath for ultimate relaxation">
+                    <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80" alt="Jacuzzi Bath" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Hydro-Spa</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Jacuzzi Bath Chamber</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="steam" data-img="https://images.unsplash.com/photo-1596178060810-72660598ef43?auto=format&fit=crop&w=1200&q=80" data-title="Herbal Steam Infuser" data-desc="Eucalyptus and peppermint herbal steam vapor">
+                    <img src="https://images.unsplash.com/photo-1596178060810-72660598ef43?auto=format&fit=crop&w=800&q=80" alt="Herbal Steam" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Herbal Steam</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Eucalyptus Steam Room</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="gallery-filter-item gallery-item open-lightbox cursor-pointer border border-spa-gold/20 shadow-xl" data-category="suites" data-img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80" data-title="Post-Therapy Tea Lounge" data-desc="Rehydrate with green tea and detox lemon mint water">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Relaxation Lounge" class="w-full h-72 object-cover">
+                    <div class="gallery-overlay">
+                        <span class="text-xs uppercase tracking-widest text-spa-gold font-bold">Tea Lounge</span>
+                        <h4 class="text-white font-serif font-bold text-lg">Wellness Relaxation Lounge</h4>
+                        <p class="text-stone-300 text-xs mt-1">Click to view full photo</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us CTA -->
+    <section class="py-16 bg-spa-card/50 border-t border-spa-gold/20 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="font-serif text-3xl font-bold text-white mb-3">Experience It In Person</h3>
+            <p class="text-stone-300 text-sm max-w-lg mx-auto mb-6">
+                Visit Dadar Spa at <strong>Dastoorwadi, Dadar East, Mumbai 400014</strong>. We welcome both advance bookings and walk-ins.
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-3.5">
+                <button class="open-booking-modal btn-gold px-8 py-3.5 rounded-full font-bold text-sm shadow-xl flex items-center gap-2">
+                    <i class="fa-regular fa-calendar-check"></i> Book Online Session
+                </button>
+                <a href="tel:8169595455" class="px-7 py-3.5 rounded-full border border-spa-gold text-spa-goldLight hover:bg-spa-gold hover:text-stone-950 transition font-bold text-sm bg-spa-card flex items-center gap-2">
+                    <i class="fa-solid fa-phone"></i> Call 8169595455
+                </a>
+                <a href="https://wa.me/918169595455" target="_blank" class="px-6 py-3.5 rounded-full btn-whatsapp-luxury font-semibold text-sm flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-400"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 text-stone-400 pt-16 pb-12 border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-stone-800">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full border border-spa-gold flex items-center justify-center bg-spa-card text-spa-gold">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+                        <span class="font-serif text-2xl font-bold gold-gradient-text">DADAR SPA</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-400 leading-relaxed mb-4">
+                        Dastoorwadi, Dadar East, Dadar, Mumbai, Maharashtra 400014. Call / WhatsApp: 8169595455.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Navigation</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="index.html" class="hover:text-spa-gold transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-spa-gold transition">About Us</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Services & Rates</a></li>
+                        <li><a href="gallery.html" class="hover:text-spa-gold transition text-spa-gold">Ambiance Gallery</a></li>
+                        <li><a href="contact.html" class="hover:text-spa-gold transition">Contact & Map</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Popular Services</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Swedish Relaxing Therapy</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Deep Tissue Massage</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">Aromatherapy Oils</a></li>
+                        <li><a href="services.html" class="hover:text-spa-gold transition">VIP Couple Suite</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-white text-base mb-4 border-l-2 border-spa-gold pl-3">Contact</h4>
+                    <div class="space-y-3 text-xs sm:text-sm">
+                        <div class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-location-dot text-spa-gold mt-1"></i>
+                            <span>Dastoorwadi, Dadar East, Mumbai 400014</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-phone text-spa-gold"></i>
+                            <a href="tel:8169595455" class="hover:text-spa-gold font-semibold">+91 81695 95455</a>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                            <a href="https://wa.me/918169595455" target="_blank" class="hover:text-emerald-300 font-semibold">8169595455</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-stone-500">
+                <p>&copy; 2026 Dadar Spa. All rights reserved.</p>
+                <p>Call: +91 81695 95455</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Quick Action Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-stone-950/95 backdrop-blur-xl border-t border-spa-gold/30 px-3 py-2 flex items-center justify-between gap-2 shadow-2xl">
+        <a href="tel:8169595455" class="flex-1 py-2.5 rounded-xl bg-spa-card border border-spa-gold/30 text-spa-goldLight flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-solid fa-phone-volume text-spa-gold"></i> Call
+        </a>
+        <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20book%20a%20session" target="_blank" class="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+        </a>
+        <button class="open-booking-modal flex-1 py-2.5 rounded-xl btn-gold text-stone-950 flex items-center justify-center gap-2 text-xs font-bold shadow">
+            <i class="fa-regular fa-calendar-check"></i> Book Now
+        </button>
+    </div>
+
+    <!-- Desktop Floating Action Buttons -->
+    <div class="hidden md:flex fixed bottom-6 right-6 z-40 flex-col gap-3">
+        <a href="tel:8169595455" class="w-14 h-14 rounded-full btn-gold text-stone-950 flex items-center justify-center text-xl shadow-2xl hover:scale-110 transition border-2 border-spa-goldLight group" title="Call Dadar Spa">
+            <i class="fa-solid fa-phone-volume group-hover:rotate-12 transition"></i>
+        </a>
+        <a href="https://wa.me/918169595455?text=Hello%20Dadar%20Spa,%20I%20would%20like%20to%20book%20a%20therapy" target="_blank" class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition pulse-wa" title="WhatsApp Dadar Spa">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Gallery Lightbox Modal -->
+    <div id="gallery-lightbox" class="fixed inset-0 z-50 modal-backdrop bg-stone-950/95 backdrop-blur-xl flex flex-col items-center justify-center p-4">
+        <button id="lightbox-close" class="absolute top-6 right-6 text-stone-300 hover:text-white text-3xl">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-4xl w-full text-center">
+            <img id="lightbox-img" src="" alt="Spa View" class="max-h-[75vh] mx-auto rounded-2xl border border-spa-gold/40 shadow-2xl object-contain">
+            <h4 id="lightbox-title" class="font-serif text-xl font-bold text-spa-gold mt-4"></h4>
+            <p id="lightbox-desc" class="text-xs sm:text-sm text-stone-300"></p>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 z-50 modal-backdrop bg-stone-950/85 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="modal-content glass-card-static w-full max-w-lg rounded-3xl p-6 sm:p-8 border border-spa-gold/40 shadow-2xl relative">
+            <button class="close-booking-modal absolute top-5 right-5 text-stone-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="text-center mb-6">
+                <span class="text-spa-gold uppercase tracking-widest text-xs font-bold block mb-1">Instant Appointment</span>
+                <h3 class="font-serif text-2xl font-bold text-white">Book Your Spa Session</h3>
+                <p class="text-xs text-stone-300 mt-1">Dadar Spa &bull; Dastoorwadi, Dadar East (8169595455)</p>
+            </div>
+            <form class="spa-booking-form space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-stone-300 mb-1">Your Full Name *</label>
+                    <input type="text" name="name" required placeholder="e.g. Rahul Sharma" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Contact Phone *</label>
+                        <input type="tel" name="phone" required placeholder="e.g. 9876543210" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Selected Therapy</label>
+                        <select id="modal-service-select" name="service" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                            <option value="Swedish Relaxing Therapy">Swedish Relaxing Therapy</option>
+                            <option value="Deep Tissue Massage">Deep Tissue Massage</option>
+                            <option value="Aromatherapy Bliss">Aromatherapy Bliss</option>
+                            <option value="Traditional Thai Massage">Traditional Thai Massage</option>
+                            <option value="Ayurvedic Abhyanga">Ayurvedic Abhyanga</option>
+                            <option value="Body Scrub & Glow Polish">Body Scrub & Glow Polish</option>
+                            <option value="Couple Harmony Ritual">Couple Harmony Ritual</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Date</label>
+                        <input type="date" name="date" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-stone-300 mb-1">Preferred Time</label>
+                        <select name="time" class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-spa-gold">
+                            <option value="Morning (10:00 AM - 01:00 PM)">Morning (10:00 AM - 01:00 PM)</option>
+                            <option value="Afternoon (01:00 PM - 05:00 PM)">Afternoon (01:00 PM - 05:00 PM)</option>
+                            <option value="Evening (05:00 PM - 08:00 PM)">Evening (05:00 PM - 08:00 PM)</option>
+                            <option value="Night (08:00 PM - 10:00 PM)">Night (08:00 PM - 10:00 PM)</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-stone-300 mb-1">Notes / Preferences</label>
+                    <textarea name="notes" rows="2" placeholder="Any specific requirements..." class="w-full bg-stone-900/90 border border-stone-700 rounded-xl px-4 py-2 text-sm text-white focus:outline-none focus:border-spa-gold"></textarea>
+                </div>
+                <div class="pt-2">
+                    <button type="submit" class="w-full btn-gold py-3.5 rounded-xl text-sm font-bold shadow-xl flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Confirm & Book via WhatsApp
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
